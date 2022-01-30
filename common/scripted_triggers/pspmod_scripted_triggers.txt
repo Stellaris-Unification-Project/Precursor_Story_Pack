@@ -2,7 +2,7 @@ pspmod_sless_digsite_spawn_rules = {
 	exists = star
 	OR = {
 		has_owner = no
-		owner = { is_same_value = root.owner }
+		is_owned_by = root.owner
 	}
 	NOR = {
 		is_same_value = root.solar_system
@@ -28,7 +28,7 @@ pspmod_coprean_digsite_spawn_rules = {
 	exists = star
 	OR = {
 		has_owner = no
-		owner = { is_same_value = root.owner }
+		is_owned_by = root.owner
 	}
 	NOR = {
 		is_same_value = root.solar_system
@@ -49,7 +49,7 @@ pspmod_astanine_digsite_spawn_rules = {
 	exists = star
 	OR = {
 		has_owner = no
-		owner = { is_same_value = root.owner }
+		is_owned_by = root.owner
 	}
 	NOR = {
 		is_same_value = root.solar_system
